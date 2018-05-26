@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ASIC_MODEL=`Antminer D3`
+ASIC_MODEL=Antminer D3
 release=`curl -f --silent -L --insecure https://raw.githubusercontent.com/minershive/hiveos-asic/master/hive/etc/VERSION`
 exitcode=$?
 version=0
