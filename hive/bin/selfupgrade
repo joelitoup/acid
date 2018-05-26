@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ASIC_MODEL=`sed -n 2p /root/compile_time`
+ASIC_MODEL=`sed -n 2p /root/hive/acid/compile_time`
 release=`curl -f --silent -L --insecure https://raw.githubusercontent.com/minershive/hiveos-asic/master/hive/etc/VERSION`
 exitcode=$?
 version=0
